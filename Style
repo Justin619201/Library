@@ -33,6 +33,19 @@ header {
     margin-right: 1rem;
   }
   
+  nav ul i{
+
+
+    padding-left: 490px;
+  }
+
+  nav ul i:hover{
+
+ color: brown;
+
+ cursor: pointer;
+
+  }
   nav a {
     color: #fff;
     text-decoration: none;
@@ -42,7 +55,7 @@ header {
     color: black;
     
  }
- section{
+ body{
 
 background-color: rgb(130, 49, 49);
 
@@ -52,4 +65,25 @@ background-color: rgb(130, 49, 49);
     background-color: black;
     color: blue;
     text-align: center;
+ }
+
+
+ 
+div.card {
+ 
+  margin: 1em;
+  padding: 1em;
+ 
+  
+  border: 1px solid #ccc;
+  border-radius: 4px;
+ 
+  
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ }
+
+ div.card img:hover{
+
+  box-shadow: 4px 4px 3px 3px #2a1919;
+
  }
